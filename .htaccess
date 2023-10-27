@@ -1,0 +1,3 @@
+RewriteEngine On
+
+ErrorDocument 404 http://localhost/Global_Wild_Swimming_and_Camping/NotFound.php
