@@ -88,7 +88,7 @@
                     <p class="alert"><?= $terms_required ?></p>
                 <?php endif; ?>
                 <br>
-                <div class="g-recaptcha" data-sitekey="6Led1JUoAAAAAMPiuKrlQNC1Q0zt4u_LWlFp590g"></div>
+                <div class="g-recaptcha" data-sitekey="Put your sitekey here"></div>
                 <?php if(isset($g_recaptcha_required)): ?>
                     <p class="alert"><?= $g_recaptcha_required ?></p>
                 <?php endif; ?>
