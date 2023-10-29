@@ -5,7 +5,7 @@
     // load necessary class files
     require __DIR__ . "/vendor/autoload.php";
 
-    $stripe_secret_key = "sk_test_51O2Ti2JuTj7HICrNGzHktzBfD7AqoI10DUIDfHZooaiEI1pNh0SO0YEEFyY93MBDMYyjIPGgWZAENyYDNes60zlu00mA14BQnX";  
+    $stripe_secret_key = "";  // Generate your own secret key 
 
     // passing api key
     \Stripe\Stripe::setApiKey($stripe_secret_key);
