@@ -54,7 +54,7 @@
 
 ## Availability Page
 
-![screencapture-localhost-Global-Wild-Swimming-and-Camping-detail-php-2023-10-30-17_34_01 (1)](https://github.com/shinpaingmin/Global_Wild_Swimming_and_Camping/assets/103930442/e7eef950-5da4-450f-8c82-f76a66a06282)
+![screencapture-localhost-Global-Wild-Swimming-and-Camping-availability-php-2023-10-31-15_13_02](https://github.com/shinpaingmin/Global_Wild_Swimming_and_Camping/assets/103930442/388f66aa-a56c-454b-babf-fc2c20cadc9c)
 
 
 ## Login Page
