@@ -55,7 +55,7 @@
         }
 
         if(!empty($_POST['g-recaptcha-response'])) {
-            $secretkey = '6Led1JUoAAAAAGaWs437xyKDONi5pSHXpekv4oOC';
+            $secretkey = '';    // Generate your own secret key
             $ip = $_SERVER['REMOTE_ADDR'];
             $response = $_POST['g-recaptcha-response'];
             $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretkey&response=$response&remoteip=$ip";
