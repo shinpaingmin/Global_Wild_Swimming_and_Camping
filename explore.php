@@ -31,17 +31,7 @@
                             location_type.location_type LIKE '%$searchValue%' OR
                             activity.activity_name LIKE '%$searchValue%' OR
                             pitch_type.pitch_type LIKE '%$searchValue%'
-                        UNION 
-                        SELECT location.*, location_type.location_type, activity.activity_name
-                        FROM `location`
-                        RIGHT JOIN location_type ON location.location_type_id = location_type.location_type_id
-                        RIGHT JOIN activity ON location.activity_id = activity.activity_id
-                        RIGHT JOIN pitch_type ON location.pitch_type_id = pitch_type.pitch_type_id
-                        WHERE 
-                            location.location_name LIKE '%$searchValue%' OR
-                            location_type.location_type LIKE '%$searchValue%' OR
-                            activity.activity_name LIKE '%$searchValue%' OR
-                            pitch_type.pitch_type LIKE '%$searchValue%'
+                        
                             "
                         ;
                 } else {
